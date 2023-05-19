@@ -52,6 +52,9 @@ biodiversity_model.residual_analysis()
 ### model
 - MarineTimeSeriesAnalysis() -> for modelling timeseries models and performing feature analysis
 
+### scenarios
+- model_scenarios() -> for forecasting a traget variable over arange of projected out comes (changes to external variables)
+
 ### feature_eng
 - get_weather_date() -> fetches daily wether data from meteo (can be usedfor modelling)
 - get_uea_data() -> loads and transforms monthly climate data from UEA (can be used for modelling)
