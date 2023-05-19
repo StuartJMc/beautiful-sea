@@ -51,7 +51,7 @@ biodiversity_model.residual_analysis()
 ## Package Contents
 ### model
 - MarineTimeSeriesAnalysis() -> for modelling timeseries models and performing feature analysis
-- 
+-
 ### feature_eng
 - get_weather_date() -> fetches daily wether data from meteo (can be usedfor modelling)
 - get_uea_data() -> loads and transforms monthly climate data from UEA (can be used for modelling)
@@ -59,7 +59,7 @@ biodiversity_model.residual_analysis()
 - get_AQI() -> loads and transforms daily air quality index data (can be used for modelling)
 - get_ohi_data() -> loads and transforms yearly oncean health index data (can be used for modelling)
 
-### label eng
+### label_eng
 - calculate_biodiversity_metric() -> calculates biodiversity metric given occurences of mobile and sessile species in the community (can be used as a target variable)
 
 ## Product Reference
