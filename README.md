@@ -61,7 +61,7 @@ biodiversity_model.residual_analysis()
 
 ### label eng
 - calculate_biodiversity_metric() -> calculates biodiversity metric given occurences of mobile and sessile species in the community (can be used as a target variable)
-- 
+
 ## Product Reference
 A MVP interactive Streamlit page of Beautiful Sea's capabilities is available to view. The page showcases time series model results, feature importances and simulations of changing environmental variables. The dashboard provides valuable insights to understand the factors that most impact biodiversity and species counts. The simulation plots also allow users to assess the impact of environmental changes and take proactive measures.
 
