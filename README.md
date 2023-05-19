@@ -54,6 +54,7 @@ biodiversity_model.residual_analysis()
 A MVP interactive Streamlit page of Beautiful Sea's capabilities is available to view. The page showcases time series model results, feature importances and simulations of changing environmental variables. The dashboard provides valuable insights to understand the factors that most impact biodiversity and species counts. The simulation plots also allow users to assess the impact of environmental changes and take proactive measures.
 
 Link to page: https://mitrag-beautiful-sea-streamlit-d-beautiful-sea-streamlit-on6bwj.streamlit.app/
+
 Link to page repository: https://github.com/MitraG/Beautiful-Sea-Streamlit-Dashboard/tree/main
 
 <img width="960" alt="Product Welcome Page" src="https://github.com/StuartJMc/beautiful-sea/assets/82417027/309852b0-7d05-495f-8b0f-8a477af23b42">
