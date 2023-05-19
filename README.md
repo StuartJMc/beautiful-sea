@@ -16,7 +16,7 @@ Photo by <a href="https://unsplash.com/@francesgunn?utm_source=unsplash&utm_medi
 - [Package Reference](#package-reference)
 - [References](#references)
 
-## Project Overview(#project-overview)
+## Project Overview
 
 Tools to aid modelling of coastal ecosystems. Including:
 
@@ -25,9 +25,9 @@ Tools to aid modelling of coastal ecosystems. Including:
 - A marine time series model for training and forecasting labels
 - A tool for forecasting scenarios 
 
-## Quick Start(#quick-start)
+## Quick Start
 
-'''python
+```python
 biodiversity_model = MarineTimeSeriesAnalysis(
                                     df = 'species_sample_coastal.csv,
                                     label =  'biodiversity,
@@ -45,8 +45,8 @@ biodiversity_model.forecast()
 
 #analyze model residuals to understand potential impacting variables
 biodiversity_model.residual_analysis()
-'''
+```
 
-## Package Reference(#package-reference)
+## Package Reference
 
-## References(#references)
+## References
