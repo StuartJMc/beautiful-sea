@@ -51,7 +51,7 @@ biodiversity_model.residual_analysis()
 ## Package Contents
 ### model
 - MarineTimeSeriesAnalysis() -> for modelling timeseries models and performing feature analysis
--
+
 ### feature_eng
 - get_weather_date() -> fetches daily wether data from meteo (can be usedfor modelling)
 - get_uea_data() -> loads and transforms monthly climate data from UEA (can be used for modelling)
