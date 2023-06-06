@@ -19,18 +19,18 @@ Photo by <a href="https://unsplash.com/@francesgunn?utm_source=unsplash&utm_medi
 
 ## Project Overview
 
-Tools to aid modelling of coastal ecosystems. Including:
+Tools to aid in modelling of coastal ecosystems. Including:
 
 - Functions for engineering relevant features from weather, climate, and oceanographic data.
 - Functions for visualising and analysing data.
-- A marine time series model for training and forecasting labels
-- A tool for forecasting scenarios 
+- A marine time series model for training and forecasting labels.
+- A tool for forecasting scenarios.
 
 ## Quick Start
 
 ```python
 biodiversity_model = MarineTimeSeriesAnalysis(
-                                    df = 'species_sample_coastal.csv,
+                                    df = species_df,
                                     label =  'biodiversity,
                                     features = ['temperature', 'ph', ... 'chlorophyll'],
                                     split_date ='2020-01-01',
@@ -38,13 +38,13 @@ biodiversity_model = MarineTimeSeriesAnalysis(
                                     lag_values=[1, 2, 3],
                                 )
 
-#analyze seanal trends in your data
+#analyse seanal trends in your data
 biodiversity_model.seasonal_trends()
 
 #forecast biodiversity for your test period
 biodiversity_model.forecast()
 
-#analyze model residuals to understand potential impacting variables
+#analyse model residuals to understand potential impacting variables
 biodiversity_model.residual_analysis()
 ```
 
@@ -53,10 +53,10 @@ biodiversity_model.residual_analysis()
 - MarineTimeSeriesAnalysis() -> for modelling timeseries models and performing feature analysis
 
 ### scenarios
-- model_scenarios() -> for forecasting a traget variable over arange of projected out comes (changes to external variables)
+- model_scenarios() -> for forecasting a traget variable over a range of projected out comes (changes to external variables)
 
 ### feature_eng
-- get_weather_date() -> fetches daily wether data from meteo (can be usedfor modelling)
+- get_weather_date() -> fetches daily wether data from meteo (can be used for modelling)
 - get_uea_data() -> loads and transforms monthly climate data from UEA (can be used for modelling)
 - get_copernicus_data() -> loads and transforms daily ocean chemical readings from Copernicus (can be used for modelling)
 - get_AQI() -> loads and transforms daily air quality index data (can be used for modelling)
@@ -71,8 +71,6 @@ A MVP interactive Streamlit page of Beautiful Sea's capabilities is available to
 Link to page: https://mitrag-beautiful-sea-streamlit-d-beautiful-sea-streamlit-on6bwj.streamlit.app/
 
 Link to page repository: https://github.com/MitraG/Beautiful-Sea-Streamlit-Dashboard/tree/main
-
-<img width="960" alt="Product Welcome Page" src="https://github.com/StuartJMc/beautiful-sea/assets/82417027/309852b0-7d05-495f-8b0f-8a477af23b42">
 
 ## References
 
